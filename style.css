@@ -211,3 +211,8 @@ h1.titulo {
 .card:hover {
   background-color: #d3d3d3;
 }
+h1.titulo{
+  color: #f40000;
+  box-shadow:0,0 ,0 5 #ffffff;
+
+}
