@@ -189,7 +189,7 @@ nav.bg-gray-800 #mobile-menu {
     transform: translateY(0);
   }
   to {
-    transform: translateY(-1px);
+    transform: translateY(-2px);
   }
 }
 @keyframes moveDown {
