@@ -45,9 +45,9 @@
   } */
   
   /* Estilo do botão ao passar o mouse */
-  .prev:hover, .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-  }
+  /* .prev:hover, .next:hover {
+    background-color: rgba(219, 16, 16, 0.8);
+  } */
 
    /* adicionando o nave bar */
 
@@ -65,7 +65,7 @@ nav.bg-gray-800 {
 /* 
 /* Logo toys */
 nav.bg-gray-800 .flex-shrink-0 img {
-  height:1.1rem; /* Adjust as needed */
+  height:0.1rem; /* Adjust as needed */
 } */
 
 /* Menu items */
@@ -186,18 +186,18 @@ nav.bg-gray-800 #mobile-menu {
 /* card efeitosssssssss */
 @keyframes moveUp {
   from {
-    transform: translateY(0);
+    transform: translateY(10);
   }
   to {
-    transform: translateY(-2px);
+    transform: translateY(-20);
   }
 }
 @keyframes moveDown {
   from {
-    transform: translateY(0);
+    transform:translateX(-1);
   }
   to {
-    transform: translateY(-150px);
+    transform:translateX(10);
   }
 }
 .card {  
