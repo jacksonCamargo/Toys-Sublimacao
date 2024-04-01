@@ -31,3 +31,12 @@ function showSlides(n) {
 setInterval(function() {
   changeSlide(1);
 }, 3000);
+
+// ONMOUSE
+function addShadow(element) {
+  element.style.boxShadow = '0px 5px 15px rgba(0, 0, 0, 0.3)';
+}
+
+function removeShadow(element) {
+  element.style.boxShadow = 'none';
+}
