@@ -192,21 +192,25 @@ nav.bg-gray-800 #mobile-menu {
     transform: translateY(-20);
   }
 }
-@keyframes moveDown {
+/* @keyframes moveDown {
   from {
     transform:translateX(-1);
   }
   to {
     transform:translateX(10);
   }
-}
+} */
 .card {  
   animation: moveUp 0.5s alternate infinite;
  
 }
 h1.titulo {  
   animation: moveDown 1.5s alternate infinite;
+ 
 
+}
+h1{
+  margin-top: 500px;
 }
 .card:hover {
   background-color: #d3d3d3;
@@ -215,4 +219,24 @@ h1.titulo{
   color: #f40000;
   box-shadow:0,0 ,0 5 #ffffff;
 
+}
+
+/* link do whats a */
+
+.whatsApp {
+  position:fixed;
+width:60px;
+height:60px;
+bottom:20px;
+right:20px;
+background-color:#25d366;
+color:#FFF;
+border-radius:40px;
+text-align:center;
+  font-size:40px;
+box-shadow: 2px 2px 3px rgb(143, 141, 141);
+  z-index:10px;
+ }
+.my-whatsApp {
+margin-top:10px;
 }
