@@ -253,3 +253,56 @@ margin-top:10px;
   /* box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); */
   box-shadow: 0px 5px 15px RED;
 }
+
+/* header section */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header-section {
+  color: white;
+  text-align: center;
+  padding: 80px 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Estilos para diferentes cabeçalhos */
+.header-1 {
+  background-image: url('./img/bg1_\(3\).jpg');
+}
+
+
+/* Estilos para telas menores */
+@media screen and (max-width: 768px) {
+  .header-section {
+    padding: 60px 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .header-section {
+    padding: 40px 0;
+  }
+}
+
+/* Estilos para o texto do cabeçalho */
+h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+/* Estilos para telas menores */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  h1 {
+    font-size: 24px;
+  }
+}
