@@ -222,8 +222,7 @@ h1.titulo{
 }
 h2.subtitulo{
   color: #ede1e1;
-  box-shadow:0,0 ,0 5 #ffffff;
-  
+  box-shadow:0,0 ,0 5 #ffffff;  
 
 }
 
@@ -244,7 +243,7 @@ background-color:#25d366;
 color:red;
 border-radius:40px;
 text-align:center;
-  font-size:400px;
+font-size:400px;
 /* box-shadow: 2px 2px 3px rgb(143, 141, 141); */
   z-index:10px;
  }
