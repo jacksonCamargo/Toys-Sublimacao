@@ -2,7 +2,7 @@ const carousel = document.querySelector('.carousel');
 let rotateValue = 0;
 
 function rotateCarousel() {
-  rotateValue += 120;
+  rotateValue += 130;
   carousel.style.transform = `translateX(-${rotateValue}%)`;
 }
 
