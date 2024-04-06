@@ -350,7 +350,7 @@ h1 {
 .card img {
   width: 150px;
   height: 150px;
-  border-radius: 10%;
+  border-radius: 20px;
   object-fit: cover;
   margin-bottom: 15px;
 }
