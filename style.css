@@ -5,6 +5,12 @@ body {
   background-color: #F6F6F6;
   
 }
+li{
+  color: #C4AF95;
+}
+footer a{
+  color: #C4AF95;
+}
 
 /* Header Section */
 .header-section {
