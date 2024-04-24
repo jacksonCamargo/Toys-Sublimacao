@@ -1,5 +1,3 @@
-
-alert('teste')
 const carousel = document.querySelector('.carousel');
 let rotateValue = 0;
 const totalItems = document.querySelectorAll('.carousel .card').length;
