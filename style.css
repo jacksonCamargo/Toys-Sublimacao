@@ -94,42 +94,7 @@ nav.bg-gray-800 a:hover {
   transition: box-shadow 0.3s ease;
 }
 /* card do depoimentos */
-.card-depoiments-container {
-  display: flex;
-  flex-wrap: nowrap; /* Impede que os itens quebrem para a linha seguinte */
-  overflow-x: auto; /* Adiciona uma barra de rolagem horizontal caso os itens não caibam na tela */
-}
 
-.card-depoiments {
-  flex: 0 0 300px; /* Define a largura fixa de cada item */
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  overflow: hidden;
-  margin: 20px 10px; /* Adiciona margem entre os itens */
-  background-color: #f0f0f0;
-  transition: box-shadow 0.3s ease;
-}
-
-/* .card-depoiments {
-  /* width: 100%;
-  max-width: 300px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  overflow: hidden;
-  margin: 20px auto;
-  background-color: #f0f0f0; 
-  transition: box-shadow 0.3s ease; */
-  
-
-.card img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
-.card:hover {
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
-}
 
 /* Footer */
 /* footer {
