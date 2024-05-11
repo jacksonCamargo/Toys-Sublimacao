@@ -1,0 +1,64 @@
+/* body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+} */
+
+.cartao {
+    width: 90%; /* Aumentei um pouco a largura do carrossel */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    perspective: 1000px;
+}
+
+.cart {
+    width: calc(25% - 20px); /* Aumentei o tamanho dos cartões */
+    height: 350px; /* Aumentei um pouco a altura dos cartões */
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+    cursor: pointer;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.cart:hover {
+    transform: rotateY(180deg);
+}
+
+.front, .back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    border-radius: 10px;
+}
+
+.front {
+    background-color: #3498db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+}
+
+.back {
+    background-color: #2ecc71;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    transform: rotateY(180deg);
+    background-size: cover; /* Mantém a qualidade da imagem */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+    
+
+
