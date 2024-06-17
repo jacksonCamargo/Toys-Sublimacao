@@ -29,15 +29,15 @@ footer a{
 }
 
 /* Responsividade do Header */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 622px) {
   .header-section {
-    padding: 90px 0;
+    padding: 90px 10;
   }
 }
 
 @media screen and (max-width: 576px) {
   .header-section {
-    padding: 90px 0;
+    padding: 90px 10;
   }
 }
 
@@ -63,7 +63,7 @@ nav.bg-gray-800 a:hover {
   color: #FFFFFF;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 622px) {
   nav.bg-gray-800 {
     flex-direction: column;
     align-items: stretch;
@@ -109,8 +109,8 @@ nav.bg-gray-800 a:hover {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   background-color: #25d366;
   color: #FFFFFF;
   border-radius: 50%;
