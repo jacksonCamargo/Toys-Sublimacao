@@ -58,21 +58,23 @@
     color: red;
     margin-top: 20px;
 }
-@media screen and (max-width: 791px) {
+
+/* ajuste para telas menores */
+@media screen and (max-width: 622px) {
    
     .search-container {
       
       position: relative;
       width: 45px;
       margin-top: -100px;
-      margin-left: -300;
-      margin-bottom: 20px;
+      margin-left: -20;
+      /* margin-bottom: 20px; */
     /* margin-left: 750px; */
            
     }
 }
    
-  @media screen and (max-width: 791px) {
+  @media screen and (max-width: 622px) {
    
     .search-container input {
         margin-left: -40rem;
@@ -96,6 +98,10 @@
     }
       
   }
-
+  @media (max-width: 622px) {
+    body {
+      /* overflow: hidden; */
+    }
+  }
   
   
