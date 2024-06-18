@@ -58,7 +58,7 @@
     color: red;
     margin-top: 20px;
 }
-@media screen and (max-width: 622px) {
+@media screen and (max-width: 791px) {
    
     .search-container {
       
@@ -72,7 +72,7 @@
     }
 }
    
-  @media screen and (max-width: 622px) {
+  @media screen and (max-width: 791px) {
    
     .search-container input {
         margin-left: -40rem;
