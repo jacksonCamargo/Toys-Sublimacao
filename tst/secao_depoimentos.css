@@ -11,8 +11,10 @@
     width: 90%; /* Aumentei um pouco a largura do carrossel */
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    perspective: 1000px;
+    margin-top: 2rem;
+    margin-left:  5rem;
+    /* align-items: center; */
+    /* perspective: 1000px; */
 }
 
 .cart {
