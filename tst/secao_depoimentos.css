@@ -22,9 +22,9 @@
     height: 350px; /* Aumentei um pouco a altura dos cartões */
     position: relative;
     transform-style: preserve-3d;
-    transition: transform 0.5s;
+    transition: transform 3.1s;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 20rem;
     overflow: hidden;
 }
 
@@ -64,3 +64,17 @@
     
 
 
+/* secao telas menores */
+@media screen and (max-width: 622) {
+    .cart {
+        width: calc(25% - 20px); /* Aumentei o tamanho dos cartões */
+        height: 350px; /* Aumentei um pouco a altura dos cartões */
+        position: relative;
+        transform-style: preserve-3d;
+        transition: transform 3.1s;
+        cursor: pointer;
+        border-radius: 20rem;
+        overflow: hidden;
+    }
+    
+}
